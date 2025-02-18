@@ -1,0 +1,84 @@
+﻿  car.cpp
+C:\Users\Колледж\source\repos\pointers\pointers\car.h(15,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "car.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\car.h(19,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "car.cpp")
+  
+  fraction.cpp
+C:\Users\Колледж\source\repos\pointers\pointers\fraction.h(14,4): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "fraction.cpp")
+  
+  pointer.cpp
+  pointers.cpp
+C:\Users\Колледж\source\repos\pointers\pointers\car.h(15,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "pointers.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\car.h(19,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "pointers.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\fraction.h(14,4): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "pointers.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(14,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "pointers.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(18,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "pointers.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(22,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "pointers.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(26,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "pointers.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(30,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "pointers.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(34,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "pointers.cpp")
+  
+  Student.cpp
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(6,12): error C3646: ychzav: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(6,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(56,12): error C3646: getychzav: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(56,21): error C2059: синтаксическая ошибка: (
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(56,29): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(59,12): error C3646: setychzav: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(59,21): error C2059: синтаксическая ошибка: (
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(59,47): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(14,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(18,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(22,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(26,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(30,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "Student.cpp")
+  
+C:\Users\Колледж\source\repos\pointers\pointers\Student.h(34,13): warning C4154: удаление массива; выполнено преобразование к указателю
+  (компиляция исходного файла "Student.cpp")
+  
+  Создание кода...
