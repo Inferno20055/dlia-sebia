@@ -4,6 +4,7 @@
 #include <conio.h>
 #include "fraction.h"
 #include "Student.h"
+#include"Rectangle.h"
 using namespace std;
 
 void Car::Input() {
@@ -58,10 +59,10 @@ void Student::Print() {
 }
 int main() {
     setlocale(LC_ALL, "RU");
-    int horsepower = 118; 
+    /*int horsepower = 118;
     Car myCar(&horsepower); 
     myCar.Input();
-    myCar.Print_1(); 
+    myCar.Print_1();*/ 
 
     int a = 10, b = 14, c = 9;
     Pointer point(&a, &b, &c);
@@ -80,6 +81,16 @@ int main() {
     student.setychzav("Ziv");
     cout << "Учебное заведение: " << student.setychzav("Ziv") << endl;
     cout << "Номер группы: " << student.setgroup(1) << endl;
+
+    Rectangle rect1; 
+    rect1.print();
+
+    Rectangle rect2(5.0, 3.0);
+    rect2.print();
+
+    rect2.setWidth(7.0);
+    rect2.setHeight(4.0);
+    rect2.print();
     _getch();
     return 0;
 }

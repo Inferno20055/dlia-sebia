@@ -1,22 +1,5 @@
 ﻿  car.cpp
-C:\Users\Колледж\source\repos\pointers\pointers\car.h(15,13): warning C4154: удаление массива; выполнено преобразование к указателю
-  (компиляция исходного файла "car.cpp")
-  
-C:\Users\Колледж\source\repos\pointers\pointers\car.h(19,13): warning C4154: удаление массива; выполнено преобразование к указателю
-  (компиляция исходного файла "car.cpp")
-  
-  fraction.cpp
-C:\Users\Колледж\source\repos\pointers\pointers\fraction.h(14,4): warning C4154: удаление массива; выполнено преобразование к указателю
-  (компиляция исходного файла "fraction.cpp")
-  
-  pointer.cpp
   pointers.cpp
-C:\Users\Колледж\source\repos\pointers\pointers\car.h(15,13): warning C4154: удаление массива; выполнено преобразование к указателю
-  (компиляция исходного файла "pointers.cpp")
-  
-C:\Users\Колледж\source\repos\pointers\pointers\car.h(19,13): warning C4154: удаление массива; выполнено преобразование к указателю
-  (компиляция исходного файла "pointers.cpp")
-  
 C:\Users\Колледж\source\repos\pointers\pointers\fraction.h(14,4): warning C4154: удаление массива; выполнено преобразование к указателю
   (компиляция исходного файла "pointers.cpp")
   
@@ -38,6 +21,19 @@ C:\Users\Колледж\source\repos\pointers\pointers\Student.h(30,13): warning
 C:\Users\Колледж\source\repos\pointers\pointers\Student.h(34,13): warning C4154: удаление массива; выполнено преобразование к указателю
   (компиляция исходного файла "pointers.cpp")
   
+C:\Users\Колледж\source\repos\pointers\pointers\pointers.cpp(9,11): error C2039: "Input": не является членом "Car".
+      C:\Users\Колледж\source\repos\pointers\pointers\car.h(5,7):
+       см. объявление "Car"
+  
+C:\Users\Колледж\source\repos\pointers\pointers\pointers.cpp(14,17): error C2065: stamp: необъявленный идентификатор
+C:\Users\Колледж\source\repos\pointers\pointers\pointers.cpp(17,17): error C2065: year: необъявленный идентификатор
+C:\Users\Колледж\source\repos\pointers\pointers\pointers.cpp(23,11): error C2039: "Print_1": не является членом "Car".
+      C:\Users\Колледж\source\repos\pointers\pointers\car.h(5,7):
+       см. объявление "Car"
+  
+C:\Users\Колледж\source\repos\pointers\pointers\pointers.cpp(25,52): error C2065: stamp: необъявленный идентификатор
+C:\Users\Колледж\source\repos\pointers\pointers\pointers.cpp(26,42): error C2065: year: необъявленный идентификатор
+C:\Users\Колледж\source\repos\pointers\pointers\pointers.cpp(27,48): error C2065: horsepower: необъявленный идентификатор
   Student.cpp
 C:\Users\Колледж\source\repos\pointers\pointers\Student.h(6,12): error C3646: ychzav: неизвестный спецификатор переопределения
   (компиляция исходного файла "Student.cpp")
