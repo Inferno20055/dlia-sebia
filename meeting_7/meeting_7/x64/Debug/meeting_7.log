@@ -1,0 +1,5 @@
+﻿  meeting_7.cpp
+C:\Users\Колледж\source\repos\meeting_7\meeting_7\meeting_7.cpp(20,19): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\Users\Колледж\source\repos\meeting_7\meeting_7\meeting_7.cpp(24,19): warning C4244: -=: преобразование "double" в "float", возможна потеря данных
+C:\Users\Колледж\source\repos\meeting_7\meeting_7\meeting_7.cpp(29,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  meeting_7.vcxproj -> C:\Users\Колледж\source\repos\meeting_7\x64\Debug\meeting_7.exe
