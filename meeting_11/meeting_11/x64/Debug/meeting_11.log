@@ -1,0 +1,20 @@
+﻿  meeting_11.cpp
+C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(65,20): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(73,11): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(23,33): warning C4244: return: преобразование "double" в "T", возможна потеря данных
+C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(23,33): warning C4244:         with
+C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(23,33): warning C4244:         [
+C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(23,33): warning C4244:             T=int
+C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(23,33): warning C4244:         ]
+      C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(23,33):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(77,70):
+          выполняется компиляция ссылки на экземпляр шаблон функции "T Fun<int>(T,T,T,T)"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(42,1): warning C4715: MaxEl<int>: значение возвращается не при всех путях выполнения
+C:\Users\Колледж\source\repos\meeting_11\meeting_11\meeting_11.cpp(60,1): warning C4715: MinEl<float>: значение возвращается не при всех путях выполнения
+  meeting_11.vcxproj -> C:\Users\Колледж\source\repos\meeting_11\x64\Debug\meeting_11.exe
