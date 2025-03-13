@@ -1,0 +1,4 @@
+﻿  Adapter.cpp
+C:\Users\Колледж\source\repos\Adapter\Adapter\Adapter.cpp(18,17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Колледж\source\repos\Adapter\Adapter\Adapter.cpp(21,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Adapter.vcxproj -> C:\Users\Колледж\source\repos\Adapter\x64\Debug\Adapter.exe
