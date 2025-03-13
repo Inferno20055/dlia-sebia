@@ -1,0 +1,22 @@
+﻿  Matrix.cpp
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(16,45): warning C4244: аргумент: преобразование "double" в "const _Ty", возможна потеря данных
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(16,45): warning C4244:         with
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(16,45): warning C4244:         [
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(16,45): warning C4244:             _Ty=int
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(16,45): warning C4244:         ]
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(113,46): warning C4244: =: преобразование "const _Ty" в "int", возможна потеря данных
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(113,46): warning C4244:         with
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(113,46): warning C4244:         [
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(113,46): warning C4244:             _Ty=double
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(113,46): warning C4244:         ]
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(158,34): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(158,34): warning C4244:         with
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(158,34): warning C4244:         [
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(158,34): warning C4244:             _Ty=int
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(158,34): warning C4244:         ]
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(184,27): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(184,22): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(189,27): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(189,22): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Колледж\source\repos\Matrix\Matrix\Matrix.cpp(201,29): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  Matrix.vcxproj -> C:\Users\Колледж\source\repos\Matrix\x64\Debug\Matrix.exe
