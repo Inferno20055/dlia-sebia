@@ -8,27 +8,27 @@ using namespace std;
 class Matrix {
 private:
     vector<vector<int>> data;
-    size_t rows, cols;
+    int rows, cols;
 
 public:
     // Конструктор для инициализации матрицы
-    Matrix(size_t rows, size_t cols) : rows(rows), cols(cols) {
+    Matrix(int rows, int cols) : rows(rows), cols(cols) {
         data.resize(rows, vector<int>(cols, 0.0));
     }
 
     // Доступ к элементам матрицы
-    int& operator()(size_t i, size_t j) {
+    int& operator()(int i, int j) {
         return data[i][j];
     }
 
-    const int& operator()(size_t i, size_t j) const {
+    const int& operator()(int i, int j) const {
         return data[i][j];
     }
 
     // Заполнение матрицы одним значением
     void fill(int value) {
-        for (size_t i = 0; i < rows; ++i) {
-            for (size_t j = 0; j < cols; ++j) {
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < cols; ++j) {
                 data[i][j] = value;
             }
         }
@@ -36,8 +36,8 @@ public:
 
     // Заполнение матрицы случайными числами
     void fill_random(int min_val, int max_val) {
-        for (size_t i = 0; i < rows; ++i) {
-            for (size_t j = 0; j < cols; ++j) {
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < cols; ++j) {
                 data[i][j] = min_val + static_cast<int>(rand()) / (static_cast<int>(RAND_MAX / (max_val - min_val)));
             }
         }
@@ -46,8 +46,8 @@ public:
     // Сложение двух матриц
     Matrix operator+(const Matrix& other) const {
         Matrix result(rows, cols);
-        for (size_t i = 0; i < rows; ++i) {
-            for (size_t j = 0; j < cols; ++j) {
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < cols; ++j) {
                 result(i, j) = data[i][j] + other(i, j);
             }
         }
@@ -57,8 +57,8 @@ public:
     // Вычитание двух матриц
     Matrix operator-(const Matrix& other) const {
         Matrix result(rows, cols);
-        for (size_t i = 0; i < rows; ++i) {
-            for (size_t j = 0; j < cols; ++j) {
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < cols; ++j) {
                 result(i, j) = data[i][j] - other(i, j);
             }
         }
@@ -68,8 +68,8 @@ public:
     // Умножение матрицы на скаляр
     Matrix operator*(int scalar) const {
         Matrix result(rows, cols);
-        for (size_t i = 0; i < rows; ++i) {
-            for (size_t j = 0; j < cols; ++j) {
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < cols; ++j) {
                 result(i, j) = data[i][j] * scalar;
             }
         }
@@ -80,13 +80,13 @@ public:
     Matrix operator*(const Matrix& other) const {
         if (cols != other.rows) {
             cout << "Невозможно умножить матрицы: несоответствующие размеры." << endl;
-            exit(1); // Завершение программы с ошибкой
+            exit(1); 
         }
         Matrix result(rows, other.cols);
-        for (size_t i = 0; i < rows; ++i) {
-            for (size_t j = 0; j < other.cols; ++j) {
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < other.cols; ++j) {
                 result(i, j) = 0;
-                for (size_t k = 0; k < cols; ++k) {
+                for (int k = 0; k < cols; ++k) {
                     result(i, j) += data[i][k] * other(k, j);
                 }
             }
@@ -97,8 +97,8 @@ public:
     // Транспонирование матрицы
     Matrix transpose() const {
         Matrix result(cols, rows);
-        for (size_t i = 0; i < rows; ++i) {
-            for (size_t j = 0; j < cols; ++j) {
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < cols; ++j) {
                 result(j, i) = data[i][j];
             }
         }
@@ -107,9 +107,9 @@ public:
 
     // Создание диагональной матрицы
     static Matrix diagonal(const vector<double>& diagonalElements) {
-        size_t n = diagonalElements.size();
+        int n = diagonalElements.size();
         Matrix result(n, n);
-        for (size_t i = 0; i < n; ++i) {
+        for (int i = 0; i < n; ++i) {
             result(i, i) = diagonalElements[i];
         }
         return result;
@@ -119,7 +119,7 @@ public:
     double determinant() const {
         if (rows != cols) {
             cout << "Определитель можно вычислить только для квадратных матриц." << endl;
-            return 0; // Или можно использовать exit(1);
+            exit(1);
         }
 
         if (rows == 1) {
@@ -131,11 +131,11 @@ public:
         }
 
         double det = 0.0;
-        for (size_t p = 0; p < cols; ++p) {
+        for (int p = 0; p < cols; ++p) {
             Matrix subMatrix(rows - 1, cols - 1);
-            for (size_t i = 1; i < rows; ++i) {
-                size_t jIndex = 0;
-                for (size_t j = 0; j < cols; ++j) {
+            for (int i = 1; i < rows; ++i) {
+                int jIndex = 0;
+                for (int j = 0; j < cols; ++j) {
                     if (j == p) continue;
                     subMatrix(i - 1, jIndex) = data[i][j];
                     jIndex++;
@@ -147,14 +147,14 @@ public:
     }
 
     // Доступ к строкам матрицы
-    vector<int> getRow(size_t i) const {
+    vector<int> getRow(int i) const {
         return data[i];
     }
 
     // Применение функции к каждому элементу матрицы
     void applyFunction(double (*func)(double)) {
-        for (size_t i = 0; i < rows; ++i) {
-            for (size_t j = 0; j < cols; ++j) {
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < cols; ++j) {
                 data[i][j] = func(data[i][j]);
             }
         }
@@ -181,12 +181,12 @@ int main() {
     srand(static_cast<unsigned int>(time(0)));
 
     Matrix mat1(3, 3);
-    mat1.fill_random(1.0, 10.0);
+    mat1.fill_random(1, 10);
     cout << "Матрица 1:" << endl;
     mat1.print();
 
     Matrix mat2(3, 3);
-    mat2.fill_random(1.0, 10.0);
+    mat2.fill_random(1, 10);
     cout << "Матрица 2:" << endl;
     mat2.print();
 
