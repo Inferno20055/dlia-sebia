@@ -186,7 +186,7 @@ int main() {
     mat1.print();
 
     Matrix mat2(3, 3);
-    mat2.fill_random(1, 10);
+    mat2.fill( 10);
     cout << "Матрица 2:" << endl;
     mat2.print();
 
