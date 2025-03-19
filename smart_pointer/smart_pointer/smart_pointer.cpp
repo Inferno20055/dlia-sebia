@@ -40,7 +40,7 @@ int main()
 
     // Шаг 3a: Вывести все фрукты, цена которых больше $1.00
     double threshold = 1.00;
-    cout << "Фрукты, цена которых превышает $"  << ":\n";
+    cout << "Фрукты, цена которых превышает $1.00"<< ":\n";
     for_each(fruits.begin(), fruits.end(), [threshold](const Fruit& fruit) {
         if (fruit.price > threshold) {
             fruit.display();
