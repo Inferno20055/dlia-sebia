@@ -1,0 +1,5 @@
+﻿  Behavioral_loss.cpp
+Visitor.obj : error LNK2005: "public: virtual void __cdecl Circle::accept(class Visitor &)" (?accept@Circle@@UEAAXAEAVVisitor@@@Z) уже определен в Behavioral_loss.obj
+Visitor.obj : error LNK2005: "public: virtual void __cdecl Rectangle::accept(class Visitor &)" (?accept@Rectangle@@UEAAXAEAVVisitor@@@Z) уже определен в Behavioral_loss.obj
+Visitor.obj : error LNK2005: "public: virtual void __cdecl Triangle::accept(class Visitor &)" (?accept@Triangle@@UEAAXAEAVVisitor@@@Z) уже определен в Behavioral_loss.obj
+C:\Users\Aлексей\source\repos\Behavioral_loss\x64\Debug\Behavioral_loss.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
