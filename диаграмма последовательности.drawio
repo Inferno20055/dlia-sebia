@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.4">
   <diagram name="Страница — 1" id="Qa-S6VjXntgrGyY8RAyY">
-    <mxGraphModel dx="1671" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,21 +22,21 @@
         <mxCell id="op2qdE-cT3_ui1BPulFJ-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="135" y="210" width="10" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="op2qdE-cT3_ui1BPulFJ-9" value="каталог товаров" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="op2qdE-cT3_ui1BPulFJ-9" value="&lt;u&gt;:каталог товаров&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="op2qdE-cT3_ui1BPulFJ-10" value="товар" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="op2qdE-cT3_ui1BPulFJ-10" value="&lt;u&gt;товар:каталог товаров&amp;nbsp;&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="op2qdE-cT3_ui1BPulFJ-11" value="корзина&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="op2qdE-cT3_ui1BPulFJ-11" value="&lt;u&gt;:корзина&amp;nbsp;&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="op2qdE-cT3_ui1BPulFJ-12" value="оплата" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="op2qdE-cT3_ui1BPulFJ-12" value="&lt;u&gt;:оплата&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="op2qdE-cT3_ui1BPulFJ-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="630" as="sourcePoint" />
+            <mxPoint x="340" y="1040" as="sourcePoint" />
             <mxPoint x="340" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -57,7 +57,7 @@
         </mxCell>
         <mxCell id="op2qdE-cT3_ui1BPulFJ-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="505" y="454.9999999999998" as="sourcePoint" />
+            <mxPoint x="505" y="1030" as="sourcePoint" />
             <mxPoint x="505" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -66,7 +66,7 @@
         </mxCell>
         <mxCell id="op2qdE-cT3_ui1BPulFJ-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="850" as="sourcePoint" />
+            <mxPoint x="700" y="1040" as="sourcePoint" />
             <mxPoint x="700" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -160,18 +160,6 @@
         <mxCell id="op2qdE-cT3_ui1BPulFJ-38" value="return" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="op2qdE-cT3_ui1BPulFJ-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startArrow=open;startFill=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="705" y="710" as="sourcePoint" />
-            <mxPoint x="865" y="710" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="790" y="710" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="op2qdE-cT3_ui1BPulFJ-40" value="return" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="680" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="op2qdE-cT3_ui1BPulFJ-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="705" y="670" as="sourcePoint" />
@@ -218,10 +206,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="op2qdE-cT3_ui1BPulFJ-55" value="получение товара и чека" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="900" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="op2qdE-cT3_ui1BPulFJ-58" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
-          <mxGeometry x="685" y="840" width="30" height="30" as="geometry" />
+          <mxGeometry x="510" y="890" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="op2qdE-cT3_ui1BPulFJ-59" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
           <mxGeometry x="855" y="820" width="30" height="30" as="geometry" />
