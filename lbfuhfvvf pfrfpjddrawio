@@ -97,13 +97,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pfqhv-tyVtxB6qkLQOly-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="1" source="iYiYQ4sRw72GPXxAnf7Z-39" target="iYiYQ4sRw72GPXxAnf7Z-46" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="800" />
+              <mxPoint x="760" y="1060" />
+              <mxPoint x="758" y="1060" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="iYiYQ4sRw72GPXxAnf7Z-39" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="663" y="760" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iYiYQ4sRw72GPXxAnf7Z-46" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="671" y="1060" width="30" height="30" as="geometry" />
+          <mxGeometry x="743" y="1070" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iYiYQ4sRw72GPXxAnf7Z-49" value="пользователь зарегестрирован" style="html=1;whiteSpace=wrap;rounded=1;direction=south;flipH=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="940" width="110" height="60" as="geometry" />
