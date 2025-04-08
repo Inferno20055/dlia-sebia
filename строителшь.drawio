@@ -25,9 +25,6 @@
         <mxCell id="S8JmRoaQsthpHrvXO2jA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S8JmRoaQsthpHrvXO2jA-5" target="S8JmRoaQsthpHrvXO2jA-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S8JmRoaQsthpHrvXO2jA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S8JmRoaQsthpHrvXO2jA-5" target="S8JmRoaQsthpHrvXO2jA-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="S8JmRoaQsthpHrvXO2jA-5" value="ConcreteBuilder(конкретный строитель)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="230" width="280" height="138" as="geometry" />
         </mxCell>
@@ -73,14 +70,6 @@
         <mxCell id="S8JmRoaQsthpHrvXO2jA-16" value="+ construct():" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="S8JmRoaQsthpHrvXO2jA-13">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="S8JmRoaQsthpHrvXO2jA-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S8JmRoaQsthpHrvXO2jA-13" target="S8JmRoaQsthpHrvXO2jA-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="680" y="433" />
-              <mxPoint x="680" y="179" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="S8JmRoaQsthpHrvXO2jA-23" value="Prodcut(продукт)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="420" width="120" height="60" as="geometry" />
         </mxCell>
@@ -101,9 +90,6 @@
             <mxPoint x="400" y="440" as="sourcePoint" />
             <mxPoint x="450" y="390" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="S8JmRoaQsthpHrvXO2jA-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.975;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S8JmRoaQsthpHrvXO2jA-14" target="S8JmRoaQsthpHrvXO2jA-9">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
