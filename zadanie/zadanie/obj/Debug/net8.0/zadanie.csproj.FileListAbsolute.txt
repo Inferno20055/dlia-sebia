@@ -1,0 +1,14 @@
+C:\Users\Aлексей\source\repos\zadanie\zadanie\bin\Debug\net8.0\zadanie.exe
+C:\Users\Aлексей\source\repos\zadanie\zadanie\bin\Debug\net8.0\zadanie.deps.json
+C:\Users\Aлексей\source\repos\zadanie\zadanie\bin\Debug\net8.0\zadanie.runtimeconfig.json
+C:\Users\Aлексей\source\repos\zadanie\zadanie\bin\Debug\net8.0\zadanie.dll
+C:\Users\Aлексей\source\repos\zadanie\zadanie\bin\Debug\net8.0\zadanie.pdb
+C:\Users\Aлексей\source\repos\zadanie\zadanie\obj\Debug\net8.0\zadanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aлексей\source\repos\zadanie\zadanie\obj\Debug\net8.0\zadanie.AssemblyInfoInputs.cache
+C:\Users\Aлексей\source\repos\zadanie\zadanie\obj\Debug\net8.0\zadanie.AssemblyInfo.cs
+C:\Users\Aлексей\source\repos\zadanie\zadanie\obj\Debug\net8.0\zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Aлексей\source\repos\zadanie\zadanie\obj\Debug\net8.0\zadanie.dll
+C:\Users\Aлексей\source\repos\zadanie\zadanie\obj\Debug\net8.0\refint\zadanie.dll
+C:\Users\Aлексей\source\repos\zadanie\zadanie\obj\Debug\net8.0\zadanie.pdb
+C:\Users\Aлексей\source\repos\zadanie\zadanie\obj\Debug\net8.0\zadanie.genruntimeconfig.cache
+C:\Users\Aлексей\source\repos\zadanie\zadanie\obj\Debug\net8.0\ref\zadanie.dll
